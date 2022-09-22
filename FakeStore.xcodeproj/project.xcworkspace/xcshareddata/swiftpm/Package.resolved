@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "refds-ui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rafaelesantos/refds-ui.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9589ff34be7a89c128fed00e2ef1f2a32c27e78a"
+      }
+    }
+  ],
+  "version" : 2
+}

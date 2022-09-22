@@ -8,7 +8,7 @@
 import Foundation
 
 struct Constants {
-    static let baseURL = "https://fakestoreapi.com/"
+    static let baseURL = "https://fakestoreapi.com"
     
     static func getAllProductsURL(limit: Int = 20) -> URL {
         return URL(string: "\(baseURL)/products?limit=\(limit)")!
