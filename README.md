@@ -9,3 +9,12 @@
 [swift-url]: https://www.swift.org/blog/swift-5.7-released/
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: LICENSE
+
+Essa aplicação tem como objetivo implementar o design pattern MV, consumindo dados da API fake store.
+
+### Screenshots
+
+<p align="leading">
+<img src="Assets/1.png" width="20%"/>
+<img src="Assets/2.png" width="20%"/>
+</p>
