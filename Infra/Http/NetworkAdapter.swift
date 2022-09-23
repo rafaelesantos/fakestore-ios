@@ -9,9 +9,7 @@ public class NetworkAdapter: HttpGetClient {
     }
     
     public func get(toURL url: URL) async -> HttpGetClient.Result {
-        var request = URLRequest(url: url)
-        request.httpMethod = "GET"
-        guard let result = try? await session.data(for: request) else { return .failure(.noConnectivity) }
+        guard let result = try? await session.data(from: url) else { return .failure(.noConnectivity) }
         guard let statusCode = (result.1 as? HTTPURLResponse)?.statusCode else { return .failure(.noConnectivity) }
         return handle(statusCode: statusCode, withData: result.0)
     }
