@@ -198,6 +198,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7748DD4B28DDAE110047CE0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		778798A028DC32D70054194D /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		778798A328DC33960054194D /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		778798A928DCAB900054194D /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
@@ -454,6 +455,7 @@
 		7787994A28DD7C530054194D /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				7748DD4B28DDAE110047CE0E /* Info.plist */,
 				7787997C28DD7F660054194D /* Helpers */,
 				7787997328DD7D7D0054194D /* Environment */,
 				7787995728DD7CC30054194D /* Factories */,
@@ -1369,8 +1371,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Main/Preview Content\"";
+				DEVELOPMENT_TEAM = Q7QLR2PH2X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Main/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Fake Store";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -1384,7 +1388,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.rafaelescaleira.Main;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rafaelescaleira.FakeStore.Main;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1400,8 +1404,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Main/Preview Content\"";
+				DEVELOPMENT_TEAM = Q7QLR2PH2X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Main/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Fake Store";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -1415,7 +1421,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.rafaelescaleira.Main;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rafaelescaleira.FakeStore.Main;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
