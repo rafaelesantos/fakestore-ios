@@ -1,5 +1,7 @@
 import Foundation
 
+public typealias Products = [Product]
+
 public struct Product: Codable, Identifiable {
     public let id: Int
     public let title: String

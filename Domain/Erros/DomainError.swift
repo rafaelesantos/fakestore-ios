@@ -12,4 +12,9 @@ extension DomainError: CustomStringConvertible {
         case .requestError(let description): return "Error on request - \(description)"
         }
     }
+    
+    public var log: Self {
+        print("[ERROR] \(Date())\n\(description)")
+        return self
+    }
 }

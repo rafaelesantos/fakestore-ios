@@ -1,11 +1,9 @@
 import Foundation
 
 public protocol Model: Codable {
-    var prettyJSON: String { get }
-    func infoLog()
 }
 
-public extension Model {
+public extension Encodable {
     var prettyJSON: String {
         let encoder = JSONEncoder()
         encoder.outputFormatting = .prettyPrinted
@@ -15,7 +13,8 @@ public extension Model {
         return string
     }
     
-    func infoLog() {
+    var log: Self {
         print("[INFO] \(Self.Type.self) \(Date())\n\(prettyJSON)")
+        return self
     }
 }

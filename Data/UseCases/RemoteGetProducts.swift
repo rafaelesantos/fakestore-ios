@@ -11,14 +11,14 @@ public class RemoteGetProducts: GetProducts {
     }
     
     public func getProducts(limit: Int, sort: Sort) async -> GetProducts.Result {
-        let url = url.appendingPathExtension("?limit=\(limit)&sort=\(sort.rawValue)")
+        guard let url = URL(string: url.absoluteString + "?limit=\(limit)&sort=\(sort.rawValue)") else { return .failure(.requestError(description: HttpError.badRequest.description).log) }
         let result = await httpClient.get(toURL: url)
         switch result {
         case .success(let data):
-            guard let decoded: [Product] = data.asModel() else { return .failure(.decodedError(type: [Product].self)) }
-            return .success(decoded)
+            guard let decoded: [Product] = data.asModel() else { return .failure(.decodedError(type: [Product].self).log) }
+            return .success(decoded.log)
         case .failure(let httpError):
-            return .failure(.requestError(description: httpError.description))
+            return .failure(.requestError(description: httpError.description).log)
         }
     }
 }

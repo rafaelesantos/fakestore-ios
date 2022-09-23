@@ -1,9 +1,14 @@
 import Foundation
+import RefdsUI
 
-struct Category: Encodable {
-    var label: String
-    var isRemovable: Bool = false
-    var isRemoved: Bool = false
-    var isSelected: Bool = false
-    var id: UUID = UUID()
+public struct Category: Codable, TagModel {
+    public var label: String
+    public var isRemovable: Bool = false
+    public var isRemoved: Bool = false
+    public var isSelected: Bool = false
+    public var id: UUID = UUID()
+    
+    public init(label: String) {
+        self.label = label
+    }
 }
