@@ -14,7 +14,9 @@ Essa aplicação tem como objetivo implementar o design pattern MV, consumindo d
 
 ### Screenshots
 
-<p align="leading">
+<p align="center">
 <img src="Assets/1.png" width="20%"/>
 <img src="Assets/2.png" width="20%"/>
+<img src="Assets/3.png" width="20%"/>
+<img src="Assets/4.png" width="20%"/>
 </p>
