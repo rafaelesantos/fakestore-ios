@@ -27,7 +27,7 @@ public struct ProductsView: View {
     public init() {}
     
     public var body: some View {
-        VStack(alignment: .leading, spacing: .medium) {
+        Group {
             HStack {
                 Heading("Fake Store", style: .title1, alignment: .leading)
                 Spacer()
@@ -38,19 +38,32 @@ public struct ProductsView: View {
             }
             .padding([.leading, .trailing], .medium)
             .padding(.top, .large)
-            
-            HorizontalScroll(itemWidth: .intrinsic, horizontalPadding: .medium) {
-                categories
-            }
-            
-            ScrollView {
-                if store.productsByCategory.isEmpty {
-                    Skeleton(.card())
-                }
-                products
+        }.frame(alignment: .top)
+        
+        VStack(alignment: .leading, spacing: .medium) {
+            if store.productsByCategory.isEmpty || store.categories.isEmpty {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: .medium) {
+                        Skeleton(.list(rows: 3), animation: .default)
+                        Skeleton(.image(height: 150), animation: .default)
+                        Skeleton(.card(height: 200), animation: .default)
+                        Skeleton(.button(), animation: .default)
+                        Skeleton(.text(lines: 4), animation: .default)
+                    }
                     .padding([.leading, .trailing], .medium)
+                    .padding(.bottom, 100)
+                }
+            } else {
+                HorizontalScroll(itemWidth: .intrinsic, horizontalPadding: .medium) {
+                    categories
+                }
+                
+                ScrollView {
+                    products.padding([.leading, .trailing], .medium)
+                }
             }
         }
+        .frame(maxHeight: .infinity)
         .onAppear { isDarkMode = colorScheme == .dark }
         .task {
             await store.loadCategories()
@@ -76,7 +89,7 @@ extension ProductsView {
                 .padding([.leading, .trailing, .bottom], .medium)
             }
             .lineLimit(2)
-            .padding(.bottom, store.productsByCategory.last?.id == product.id ? .large : 0)
+            .padding(.bottom, store.productsByCategory.last?.id == product.id ? 100 : 0)
         }
     }
 }
