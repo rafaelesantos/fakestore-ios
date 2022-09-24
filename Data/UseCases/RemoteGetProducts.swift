@@ -15,7 +15,7 @@ public class RemoteGetProducts: GetProducts, HttpRequest {
     public func getProducts(limit: Int, sort: Sort) async -> GetProducts.Result {
         let result = await httpClient.request(self)
         switch result {
-        case .success(let response): return .success(response)
+        case .success(let response): response.logger.console(); return .success(response)
         case .failure(let httpError): return .failure(.requestError(error: httpError))
         }
     }

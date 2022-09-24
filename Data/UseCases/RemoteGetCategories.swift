@@ -15,7 +15,7 @@ public class RemoteGetCategories: GetCategories, HttpRequest {
     public func getCategories() async -> GetCategories.Result {
         let result = await httpClient.request(self)
         switch result {
-        case .success(let response): return .success(response.map({ Domain.Category(label: $0) }))
+        case .success(let response): response.logger.console() ; return .success(response.map({ Domain.Category(label: $0) }))
         case .failure(let httpError): return .failure(.requestError(error: httpError))
         }
     }
