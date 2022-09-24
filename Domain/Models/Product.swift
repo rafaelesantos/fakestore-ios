@@ -1,8 +1,9 @@
 import Foundation
+import RefdsDomainLayer
 
 public typealias Products = [Product]
 
-public struct Product: Codable, Identifiable {
+public struct Product: DomainModel, Identifiable {
     public let id: Int
     public let title: String
     public let price: Double
@@ -12,7 +13,7 @@ public struct Product: Codable, Identifiable {
     public let rating: ProductRating
 }
 
-public struct ProductRating: Codable {
+public struct ProductRating: DomainModel {
     public let rate: Double
     public let count: Int
 }

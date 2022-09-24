@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "refds-clean-architecture",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rafaelesantos/refds-clean-architecture",
+      "state" : {
+        "branch" : "main",
+        "revision" : "7bcfeaa63f15e4494212e6d6a1cd614d620708d2"
+      }
+    },
+    {
       "identity" : "refds-ui",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/rafaelesantos/refds-ui.git",

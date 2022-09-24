@@ -1,24 +1,22 @@
 import Foundation
 import Domain
+import RefdsDataLayer
 
-public class RemoteGetProducts: GetProducts {
-    private let url: URL
-    private let httpClient: HttpGetClient
+public class RemoteGetProducts: GetProducts, HttpRequest {
+    public typealias Response = [Product]
+    public var httpClient: RefdsDataLayer.HttpClient
+    public var httpEndpoint: RefdsDataLayer.HttpEndpoint
     
-    public init(url: URL, httpClient: HttpGetClient) {
-        self.url = url
+    public init(httpEndpoint: RefdsDataLayer.HttpEndpoint, httpClient: RefdsDataLayer.HttpClient) {
         self.httpClient = httpClient
+        self.httpEndpoint = httpEndpoint
     }
     
     public func getProducts(limit: Int, sort: Sort) async -> GetProducts.Result {
-        guard let url = URL(string: url.absoluteString + "?limit=\(limit)&sort=\(sort.rawValue)") else { return .failure(.requestError(description: HttpError.badRequest.description).log) }
-        let result = await httpClient.get(toURL: url)
+        let result = await httpClient.request(self)
         switch result {
-        case .success(let data):
-            guard let decoded: [Product] = data.asModel() else { return .failure(.decodedError(type: [Product].self).log) }
-            return .success(decoded.log)
-        case .failure(let httpError):
-            return .failure(.requestError(description: httpError.description).log)
+        case .success(let response): return .success(response)
+        case .failure(let httpError): return .failure(.requestError(error: httpError))
         }
     }
 }

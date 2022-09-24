@@ -1,4 +1,5 @@
 import Foundation
+import RefdsDomainLayer
 
 public protocol GetProducts {
     typealias Result = Swift.Result<[Product], DomainError>

@@ -6,9 +6,7 @@ public struct TabBarView: View {
     private var tabs: [TabBarItemModel]
     private var completion: ((Int) -> Void)?
     private var selectedIndex: Int = 0 {
-        didSet {
-            completion?(selectedIndex)
-        }
+        didSet { completion?(selectedIndex) }
     }
     
     public init(selectedTab: TabBarItemModel, tabs: [TabBarItemModel], selectedIndex: Int, completion: @escaping (Int) -> Void) {

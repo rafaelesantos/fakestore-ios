@@ -1,7 +1,8 @@
 import Foundation
 import RefdsUI
+import RefdsDomainLayer
 
-public struct Category: Codable, TagModel {
+public struct Category: DomainModel, TagModel {
     public var label: String
     public var isRemovable: Bool = false
     public var isRemoved: Bool = false

@@ -1,23 +1,22 @@
 import Foundation
 import Domain
+import RefdsDataLayer
 
-public class RemoteGetCategories: GetCategories {
-    private let url: URL
-    private let httpClient: HttpGetClient
+public class RemoteGetCategories: GetCategories, HttpRequest {
+    public typealias Response = [String]
+    public var httpClient: RefdsDataLayer.HttpClient
+    public var httpEndpoint: RefdsDataLayer.HttpEndpoint
     
-    public init(url: URL, httpClient: HttpGetClient) {
-        self.url = url
+    public init(httpEndpoint: RefdsDataLayer.HttpEndpoint, httpClient: RefdsDataLayer.HttpClient) {
         self.httpClient = httpClient
+        self.httpEndpoint = httpEndpoint
     }
     
     public func getCategories() async -> GetCategories.Result {
-        let result = await httpClient.get(toURL: url)
+        let result = await httpClient.request(self)
         switch result {
-        case .success(let data):
-            guard let decoded: [String] = data.asModel() else { return .failure(.decodedError(type: [Domain.Category].self).log) }
-            return .success(decoded.map({ Domain.Category(label: $0) }).log)
-        case .failure(let httpError):
-            return .failure(.requestError(description: httpError.description).log)
+        case .success(let response): return .success(response.map({ Domain.Category(label: $0) }))
+        case .failure(let httpError): return .failure(.requestError(error: httpError))
         }
     }
 }

@@ -7,17 +7,362 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "98C19224-FE8F-45A6-A0C0-B414EB8E9493"
+            uuid = "863C9CE7-6399-4230-9319-048B9ADB38A3"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "UI/Scenes/TabBarView.swift"
+            filePath = "../../Library/Developer/Xcode/DerivedData/FakeStore-faetipzmdbbptrexsaortsnfxhzm/SourcePackages/checkouts/refds-clean-architecture/Sources/RefdsInfraLayer/Http/NetworkAdapter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "10"
-            endingLineNumber = "10"
-            landmarkName = "selectedIndex"
-            landmarkType = "24">
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "request(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4BA6E2B1-5CB2-4005-B66C-DB99BFB0A946"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/FakeStore-faetipzmdbbptrexsaortsnfxhzm/SourcePackages/checkouts/refds-clean-architecture/Sources/RefdsInfraLayer/Http/NetworkAdapter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "request(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4BA6E2B1-5CB2-4005-B66C-DB99BFB0A946 - 2ff6badbb9082232"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for RefdsInfraLayer.NetworkAdapter.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: RefdsDataLayer.HttpRequest&gt;(&#x3c4;_0_0) async -&gt; Swift.Result&lt;&#x3c4;_0_0.Response, RefdsDataLayer.HttpError&gt;"
+                  moduleName = "Main"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rafael.escaleira/Library/Developer/Xcode/DerivedData/FakeStore-faetipzmdbbptrexsaortsnfxhzm/SourcePackages/checkouts/refds-clean-architecture/Sources/RefdsInfraLayer/Http/NetworkAdapter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "680">
+               </Location>
+               <Location
+                  uuid = "4BA6E2B1-5CB2-4005-B66C-DB99BFB0A946 - 762adc01ea2a3ca6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for RefdsInfraLayer.NetworkAdapter.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: RefdsDataLayer.HttpRequest&gt;(&#x3c4;_0_0) async -&gt; Swift.Result&lt;&#x3c4;_0_0.Response, RefdsDataLayer.HttpError&gt;"
+                  moduleName = "Main"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rafael.escaleira/Library/Developer/Xcode/DerivedData/FakeStore-faetipzmdbbptrexsaortsnfxhzm/SourcePackages/checkouts/refds-clean-architecture/Sources/RefdsInfraLayer/Http/NetworkAdapter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "4BA6E2B1-5CB2-4005-B66C-DB99BFB0A946 - fb1ffc3cbcba9e0c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for RefdsInfraLayer.NetworkAdapter.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: RefdsDataLayer.HttpRequest&gt;(&#x3c4;_0_0) async -&gt; Swift.Result&lt;&#x3c4;_0_0.Response, RefdsDataLayer.HttpError&gt;"
+                  moduleName = "Main"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rafael.escaleira/Library/Developer/Xcode/DerivedData/FakeStore-faetipzmdbbptrexsaortsnfxhzm/SourcePackages/checkouts/refds-clean-architecture/Sources/RefdsInfraLayer/Http/NetworkAdapter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "4BA6E2B1-5CB2-4005-B66C-DB99BFB0A946 - 22b35f403eec58ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for RefdsInfraLayer.NetworkAdapter.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: RefdsDataLayer.HttpRequest&gt;(&#x3c4;_0_0) async -&gt; Swift.Result&lt;&#x3c4;_0_0.Response, RefdsDataLayer.HttpError&gt;"
+                  moduleName = "Main"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rafael.escaleira/Library/Developer/Xcode/DerivedData/FakeStore-faetipzmdbbptrexsaortsnfxhzm/SourcePackages/checkouts/refds-clean-architecture/Sources/RefdsInfraLayer/Http/NetworkAdapter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0A7AFE5-BA6C-4BD9-BD25-4FCDA3F42C9E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/FakeStore-faetipzmdbbptrexsaortsnfxhzm/SourcePackages/checkouts/refds-clean-architecture/Sources/RefdsInfraLayer/Http/NetworkAdapter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "request(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C0A7AFE5-BA6C-4BD9-BD25-4FCDA3F42C9E - 2ff6badbb9082274"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for RefdsInfraLayer.NetworkAdapter.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: RefdsDataLayer.HttpRequest&gt;(&#x3c4;_0_0) async -&gt; Swift.Result&lt;&#x3c4;_0_0.Response, RefdsDataLayer.HttpError&gt;"
+                  moduleName = "Main"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rafael.escaleira/Library/Developer/Xcode/DerivedData/FakeStore-faetipzmdbbptrexsaortsnfxhzm/SourcePackages/checkouts/refds-clean-architecture/Sources/RefdsInfraLayer/Http/NetworkAdapter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "232">
+               </Location>
+               <Location
+                  uuid = "C0A7AFE5-BA6C-4BD9-BD25-4FCDA3F42C9E - 2ff6badbb9082274"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for RefdsInfraLayer.NetworkAdapter.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: RefdsDataLayer.HttpRequest&gt;(&#x3c4;_0_0) async -&gt; Swift.Result&lt;&#x3c4;_0_0.Response, RefdsDataLayer.HttpError&gt;"
+                  moduleName = "Main"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rafael.escaleira/Library/Developer/Xcode/DerivedData/FakeStore-faetipzmdbbptrexsaortsnfxhzm/SourcePackages/checkouts/refds-clean-architecture/Sources/RefdsInfraLayer/Http/NetworkAdapter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "536">
+               </Location>
+               <Location
+                  uuid = "C0A7AFE5-BA6C-4BD9-BD25-4FCDA3F42C9E - 2ff6badbb9082274"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for RefdsInfraLayer.NetworkAdapter.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: RefdsDataLayer.HttpRequest&gt;(&#x3c4;_0_0) async -&gt; Swift.Result&lt;&#x3c4;_0_0.Response, RefdsDataLayer.HttpError&gt;"
+                  moduleName = "Main"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rafael.escaleira/Library/Developer/Xcode/DerivedData/FakeStore-faetipzmdbbptrexsaortsnfxhzm/SourcePackages/checkouts/refds-clean-architecture/Sources/RefdsInfraLayer/Http/NetworkAdapter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "944">
+               </Location>
+               <Location
+                  uuid = "C0A7AFE5-BA6C-4BD9-BD25-4FCDA3F42C9E - fb1ffc3cbcba9e4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for RefdsInfraLayer.NetworkAdapter.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: RefdsDataLayer.HttpRequest&gt;(&#x3c4;_0_0) async -&gt; Swift.Result&lt;&#x3c4;_0_0.Response, RefdsDataLayer.HttpError&gt;"
+                  moduleName = "Main"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rafael.escaleira/Library/Developer/Xcode/DerivedData/FakeStore-faetipzmdbbptrexsaortsnfxhzm/SourcePackages/checkouts/refds-clean-architecture/Sources/RefdsInfraLayer/Http/NetworkAdapter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "1640">
+               </Location>
+               <Location
+                  uuid = "C0A7AFE5-BA6C-4BD9-BD25-4FCDA3F42C9E - 22b35f403eec58b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for RefdsInfraLayer.NetworkAdapter.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: RefdsDataLayer.HttpRequest&gt;(&#x3c4;_0_0) async -&gt; Swift.Result&lt;&#x3c4;_0_0.Response, RefdsDataLayer.HttpError&gt;"
+                  moduleName = "Main"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rafael.escaleira/Library/Developer/Xcode/DerivedData/FakeStore-faetipzmdbbptrexsaortsnfxhzm/SourcePackages/checkouts/refds-clean-architecture/Sources/RefdsInfraLayer/Http/NetworkAdapter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "1628">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A7C51DDB-05F8-4AAD-9DD7-CF7BAA0EFA40"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/FakeStore-faetipzmdbbptrexsaortsnfxhzm/SourcePackages/checkouts/refds-clean-architecture/Sources/RefdsInfraLayer/Http/NetworkAdapter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "request(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A7C51DDB-05F8-4AAD-9DD7-CF7BAA0EFA40 - fb1ffc3cbcba9eed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for RefdsInfraLayer.NetworkAdapter.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: RefdsDataLayer.HttpRequest&gt;(&#x3c4;_0_0) async -&gt; Swift.Result&lt;&#x3c4;_0_0.Response, RefdsDataLayer.HttpError&gt;"
+                  moduleName = "Main"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rafael.escaleira/Library/Developer/Xcode/DerivedData/FakeStore-faetipzmdbbptrexsaortsnfxhzm/SourcePackages/checkouts/refds-clean-architecture/Sources/RefdsInfraLayer/Http/NetworkAdapter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  uuid = "A7C51DDB-05F8-4AAD-9DD7-CF7BAA0EFA40 - 22b35f403eec581e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for RefdsInfraLayer.NetworkAdapter.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: RefdsDataLayer.HttpRequest&gt;(&#x3c4;_0_0) async -&gt; Swift.Result&lt;&#x3c4;_0_0.Response, RefdsDataLayer.HttpError&gt;"
+                  moduleName = "Main"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rafael.escaleira/Library/Developer/Xcode/DerivedData/FakeStore-faetipzmdbbptrexsaortsnfxhzm/SourcePackages/checkouts/refds-clean-architecture/Sources/RefdsInfraLayer/Http/NetworkAdapter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "252">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9FB8168F-C412-4CFF-BBA7-449D4A801FAB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/FakeStore-faetipzmdbbptrexsaortsnfxhzm/SourcePackages/checkouts/refds-clean-architecture/Sources/RefdsInfraLayer/Http/NetworkAdapter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "request(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9FB8168F-C412-4CFF-BBA7-449D4A801FAB - fb1ffc3cbcba9ece"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for RefdsInfraLayer.NetworkAdapter.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: RefdsDataLayer.HttpRequest&gt;(&#x3c4;_0_0) async -&gt; Swift.Result&lt;&#x3c4;_0_0.Response, RefdsDataLayer.HttpError&gt;"
+                  moduleName = "Main"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rafael.escaleira/Library/Developer/Xcode/DerivedData/FakeStore-faetipzmdbbptrexsaortsnfxhzm/SourcePackages/checkouts/refds-clean-architecture/Sources/RefdsInfraLayer/Http/NetworkAdapter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "748">
+               </Location>
+               <Location
+                  uuid = "9FB8168F-C412-4CFF-BBA7-449D4A801FAB - fb1ffc3cbcba9ece"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for RefdsInfraLayer.NetworkAdapter.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: RefdsDataLayer.HttpRequest&gt;(&#x3c4;_0_0) async -&gt; Swift.Result&lt;&#x3c4;_0_0.Response, RefdsDataLayer.HttpError&gt;"
+                  moduleName = "Main"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rafael.escaleira/Library/Developer/Xcode/DerivedData/FakeStore-faetipzmdbbptrexsaortsnfxhzm/SourcePackages/checkouts/refds-clean-architecture/Sources/RefdsInfraLayer/Http/NetworkAdapter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "1396">
+               </Location>
+               <Location
+                  uuid = "9FB8168F-C412-4CFF-BBA7-449D4A801FAB - 22b35f403eec583d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for RefdsInfraLayer.NetworkAdapter.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: RefdsDataLayer.HttpRequest&gt;(&#x3c4;_0_0) async -&gt; Swift.Result&lt;&#x3c4;_0_0.Response, RefdsDataLayer.HttpError&gt;"
+                  moduleName = "Main"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rafael.escaleira/Library/Developer/Xcode/DerivedData/FakeStore-faetipzmdbbptrexsaortsnfxhzm/SourcePackages/checkouts/refds-clean-architecture/Sources/RefdsInfraLayer/Http/NetworkAdapter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "720">
+               </Location>
+               <Location
+                  uuid = "9FB8168F-C412-4CFF-BBA7-449D4A801FAB - 22b35f403eec583d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for RefdsInfraLayer.NetworkAdapter.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: RefdsDataLayer.HttpRequest&gt;(&#x3c4;_0_0) async -&gt; Swift.Result&lt;&#x3c4;_0_0.Response, RefdsDataLayer.HttpError&gt;"
+                  moduleName = "Main"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rafael.escaleira/Library/Developer/Xcode/DerivedData/FakeStore-faetipzmdbbptrexsaortsnfxhzm/SourcePackages/checkouts/refds-clean-architecture/Sources/RefdsInfraLayer/Http/NetworkAdapter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "1384">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C88CD97-9055-4858-B599-19B5A74AFECF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/FakeStore-faetipzmdbbptrexsaortsnfxhzm/SourcePackages/checkouts/refds-clean-architecture/Sources/RefdsInfraLayer/Http/NetworkAdapter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "request(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2C88CD97-9055-4858-B599-19B5A74AFECF - fb1ffc3cbcba9eaf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for RefdsInfraLayer.NetworkAdapter.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: RefdsDataLayer.HttpRequest&gt;(&#x3c4;_0_0) async -&gt; Swift.Result&lt;&#x3c4;_0_0.Response, RefdsDataLayer.HttpError&gt;"
+                  moduleName = "Main"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rafael.escaleira/Library/Developer/Xcode/DerivedData/FakeStore-faetipzmdbbptrexsaortsnfxhzm/SourcePackages/checkouts/refds-clean-architecture/Sources/RefdsInfraLayer/Http/NetworkAdapter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1080">
+               </Location>
+               <Location
+                  uuid = "2C88CD97-9055-4858-B599-19B5A74AFECF - 22b35f403eec585c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for RefdsInfraLayer.NetworkAdapter.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: RefdsDataLayer.HttpRequest&gt;(&#x3c4;_0_0) async -&gt; Swift.Result&lt;&#x3c4;_0_0.Response, RefdsDataLayer.HttpError&gt;"
+                  moduleName = "Main"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rafael.escaleira/Library/Developer/Xcode/DerivedData/FakeStore-faetipzmdbbptrexsaortsnfxhzm/SourcePackages/checkouts/refds-clean-architecture/Sources/RefdsInfraLayer/Http/NetworkAdapter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1064">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -1,5 +1,5 @@
 import Foundation
-import Infra
+import RefdsInfraLayer
 
 func makeNetworkAdapter() -> NetworkAdapter {
     return NetworkAdapter()
